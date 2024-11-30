@@ -14,9 +14,8 @@
 body {
   font-family: "Poppins", serif;
   background-image: url(../images/bg.webp);
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 a {
   text-decoration: none;
@@ -117,4 +116,35 @@ header a {
   height: 55px;
   background-color: var(--white);
   border-radius: 9px;
+}
+.sign-in form {
+  margin-top: 40px;
+}
+.sign-in form label {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sign-in form input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 9px;
+}
+.sign-in form a {
+  display: block;
+  margin: 10px 0 40px 0;
+  text-align: right;
+  color: var(--blueberry);
+}
+.sign-in form input[type="submit"] {
+  width: 236px;
+  padding: 20px;
+  margin-left: auto;
+  color: var(--white);
+  background-color: var(--palm-leaf);
 }
