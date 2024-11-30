@@ -141,10 +141,23 @@ header a {
   text-align: right;
   color: var(--blueberry);
 }
+.sign-in form .input-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px 0;
+}
+.sign-in form .input-container div {
+  flex-grow: 1;
+}
+.sign-in form .input-container input {
+  flex-basis: 100%;
+}
 .sign-in form input[type="submit"] {
   width: 236px;
   padding: 20px;
-  margin-left: auto;
+  margin: 30px 0 30px auto;
   color: var(--white);
   background-color: var(--palm-leaf);
 }
