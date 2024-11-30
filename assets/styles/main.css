@@ -48,3 +48,71 @@ header a {
   font-weight: 600;
   color: var(--black);
 }
+.sign-in .container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sign-in .sign-in-container {
+  width: 539px;
+  padding: 44px;
+  background-color: rgb(255 255 255 / 0.75);
+  border-radius: 40px;
+}
+.sign-in .sign-in-container .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in .heading .welcome-message {
+  font-size: 21px;
+  font-weight: 400;
+}
+.sign-in .heading .welcome-message span {
+  font-weight: 600;
+  color: var(--palm-leaf);
+}
+.sign-in .heading .no-have-account {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--philippine-gray);
+}
+.sign-in .heading .no-have-account a {
+  color: var(--palm-leaf);
+}
+.sign-in h1 {
+  font-size: 55px;
+  font-weight: 500;
+  color: var(--black);
+}
+.sign-in .login-with {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+.sign-in .login-with .google {
+  width: 298px;
+  padding: 20px 25px;
+  background-color: var(--alice-blue);
+  border-radius: 9px;
+}
+.sign-in .login-with .google a {
+  display: flex;
+  align-items: center;
+  color: var(--blueberry);
+  font-size: 16px;
+  font-weight: 400;
+}
+.sign-in .login-with .google a img {
+  margin-right: 20px;
+}
+.sign-in .login-with .other-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 55px;
+  background-color: var(--white);
+  border-radius: 9px;
+}
